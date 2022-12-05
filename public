@@ -216,7 +216,7 @@ Buildings
 		desc:if we get a ticket then we have a chance of earning bIg bucks.<//><q>May or may not give you boatloads of money<//><q>+0 MPS</q><//><q>Upgrades unlock at: 50,</q>
 		cost:5 money
 		on earn:
-			yield rand(1,10) lotterymachine
+			yield random(1,10) lotterymachine
 		end
 		req:25 dirt
 		cost increase:105%
