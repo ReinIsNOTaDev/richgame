@@ -234,11 +234,11 @@ toast yoU WNO!!!!! 20 do,laer!!!!
 else if lotterymachine is 3
 yield 20 money
 toast yoU WNO!!!!! 20 do,laer!!!!
-else else if lotterymachine is 7
+else if lotterymachine is 7
 yield 1e5 money
 toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
 yield lotteryachv
-else else else toast well, better luck next time. Guess we didn't get mone
+else else toast well, better luck next time. Guess we didn't get mone
 end
                 on tick:lose tag:lotary
 // rein code end
