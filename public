@@ -216,19 +216,32 @@ Buildings
 		desc:if we get a ticket then we have a chance of earning bIg bucks.<//><q>May or may not give you boatloads of money<//><q>+0 MPS</q><//><q>Upgrades unlock at: 50,</q>
 		cost:5 money
 		on earn:
-			if (chance(100%)) toast well, better luck next time. Guess we didn't get mone
-//igm sucks so this is disabled for now
-			else if (chance(9%))
-			 yield 20 money
-			 toast yoU WNO!!!!! 20 do,laer!!!!
-			else if (chance(1%))
-			 yield 1e5 money
-			 toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
-			 yield lotteryachv
+			yield rand(1,10) lotterymachine
 		end
 		req:25 dirt
 		cost increase:105%
 		icon:icons1[8,1]
+// Code by Rein
+        *lotterymachine
+                name: Lottery Machine
+                desc:no, dont look here, it's not jambled
+                tag:lotary
+                hidden
+                on tick:
+if lotterymachine is 1
+yield 20 money
+toast yoU WNO!!!!! 20 do,laer!!!!
+else if lotterymachine is 3
+yield 20 money
+toast yoU WNO!!!!! 20 do,laer!!!!
+else else if lotterymachine is 7
+yield 1e5 money
+toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
+yield lotteryachv
+else else else toast well, better luck next time. Guess we didn't get mone
+end
+                on tick:lose tag:lotary
+// rein code end
 		
 	*landscape
 		name:landscaping job  .
