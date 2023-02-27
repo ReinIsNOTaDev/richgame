@@ -221,14 +221,14 @@ Buildings
 		req:25 dirt
 		cost increase:105%
 		icon:icons1[8,1]
-// Code by Rein
+// rein coed
         *lotterymachine
-                name: Lottery Machine
-                desc:no, dont look here, it's not jambled
+                name:lotry mackine
+                desc:y i,do dis wen no wan see it?
                 tag:lotary
                 hidden
                 on tick:
-if (lotterymachine)>=6
+if (lotterymachine)<=2
 yield 20 money
 toast yoU WNO!!!!! 20 do,laer!!!!
 else if lotterymachine is 5
