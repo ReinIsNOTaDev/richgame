@@ -228,7 +228,7 @@ Buildings
                 tag:lotary
                 hidden
                 on tick:
-if lotterymachine is 1 or 3
+if lotterymachine<4
 yield 20 money
 toast yoU WNO!!!!! 20 do,laer!!!!
 else if lotterymachine is 7
