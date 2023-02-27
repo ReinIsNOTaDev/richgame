@@ -228,10 +228,10 @@ Buildings
                 tag:lotary
                 hidden
                 on tick:
-if (lotterymachine)<=3
+if (lotterymachine)>=6
 yield 20 money
 toast yoU WNO!!!!! 20 do,laer!!!!
-else if lotterymachine is 7
+else if lotterymachine is 5
 yield 1e5 money
 toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
 yield lotteryachv
