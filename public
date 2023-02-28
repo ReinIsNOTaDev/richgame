@@ -228,24 +228,24 @@ Buildings
                 tag:lotary
                 hidden
                 on tick:
-if (lotterymachine>=11)
-lotterymachine is 0
-if (lotterymachine<=3)
-yield 20 money
-toast yoU WNO!!!!! 20 do,laer!!!!
-else if lotterymachine is 5
-yield 1e5 money
-toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
-yield lotteryachv
-else else 
-toast well, better luck next time. Guess we didn't get mone
-end
+					if (lotterymachine>=11)
+					lotterymachine is 0
+					if (lotterymachine<=3)
+					yield 20 money
+					toast yoU WNO!!!!! 20 do,laer!!!!
+					else if lotterymachine is 5
+					yield 1e5 money
+					toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
+					yield lotteryachv
+					else else 
+					toast well, better luck next time. Guess we didn't get mone
+				end
 // rein code end		
 	*landscape
 		name:landscaping job  .
 		desc:go to yard and mess around with it for 30 per second! why do people pay that much!<//><q>+30 MPS</q><//><q>Upgrades unlock at: 5</q>
 		cost:2000 money
-		passive:yield 20 money
+		passive:yield 30 money
 		req:30 dirt
 		icon:icons1[9,1]
 	*school1
