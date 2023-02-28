@@ -246,7 +246,7 @@ end
 		name:landscaping job  .
 		desc:go to yard and mess around with it for 30 per second! why do people pay that much!<//><q>+30 MPS</q><//><q>Upgrades unlock at: 5</q>
 		cost:2000 money
-		passive:yield 20 money
+		passive:yield 30 money
 		req:30 dirt
 		icon:icons1[9,1]
 	*school1
