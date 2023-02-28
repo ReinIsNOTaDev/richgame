@@ -222,22 +222,43 @@ Buildings
 		cost increase:105%
 		icon:icons1[8,1]
 // rein coed
+
         *lotterymachine
+
                 name:lotry mackine
+
                 desc:y i,do dis wen no wan see it?
+
                 tag:lotary
+
                 hidden
+
                 on tick:
+
+if (lotterymachine>=11)
+
+lotterymachine is 0
+
 if (lotterymachine<=3)
+
 yield 20 money
+
 toast yoU WNO!!!!! 20 do,laer!!!!
+
 else if lotterymachine is 5
+
 yield 1e5 money
+
 toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
+
 yield lotteryachv
+
 else else 
+
 toast well, better luck next time. Guess we didn't get mone
+
 end
+
 // rein code end
 		
 	*landscape
