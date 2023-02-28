@@ -238,7 +238,6 @@ yield lotteryachv
 else else 
 toast well, better luck next time. Guess we didn't get mone
 end
-                on tick:lose tag:lotary
 // rein code end
 		
 	*landscape
