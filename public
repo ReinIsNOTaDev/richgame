@@ -233,11 +233,12 @@ Buildings
 					if (lotterymachine<=3)
 					yield 20 money
 					toast yoU WNO!!!!! 20 do,laer!!!!
-					else if lotterymachine is 5
+					else if lotterymachine is 4
 					yield 1e5 money
 					toast yoU WNO!!!!1!!!!!!111@!!!! 100 HUNRER AED THOAUSANDS DOLAER!!@@@
 					yield lotteryachv
-					else else toast well, better luck next time. Guess we didn't get mone
+					else if lotterymachine>=5 
+                                        toast well, better luck next time. Guess we didn't get mone
 				end
 				end
 				end
